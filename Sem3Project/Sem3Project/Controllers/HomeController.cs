@@ -10,6 +10,7 @@ namespace Sem3Project.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "Home.";
             return View();
         }
 
